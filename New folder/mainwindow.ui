@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>472</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(79, 79, 79);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="runButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>350</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);font-size:16pt</string>
+    </property>
+    <property name="text">
+     <string>运行</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_main">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(225,225,225);font-size:18pt</string>
+    </property>
+    <property name="text">
+     <string>梦幻西游口袋辅助</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>0</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>271</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_task">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(225,225,225);font-size:16pt</string>
+       </property>
+       <property name="text">
+        <string>选择任务：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="taskbox">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Adobe Devanagari&quot;;
+background-color: rgb(184, 184, 184);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>捉鬼</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>师门</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>封妖</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>车迟副本</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_task_2">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(225,225,225);font-size:16pt</string>
+       </property>
+       <property name="text">
+        <string>选择组数:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="folderline">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Adobe Devanagari&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_task_3">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(225,225,225);font-size:16pt</string>
+       </property>
+       <property name="text">
+        <string>延迟执行:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_task_4">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(225,225,225);font-size:16pt</string>
+       </property>
+       <property name="text">
+        <string>自动关机:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="shutdownline">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Adobe Devanagari&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="waitbox">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Adobe Devanagari&quot;;
+background-color: rgb(184, 184, 184);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>小时</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="shutdownbox">
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Adobe Devanagari&quot;;
+background-color: rgb(184, 184, 184);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>分钟</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>小时</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="waitline">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Adobe Devanagari&quot;;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>472</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

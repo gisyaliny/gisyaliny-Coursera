@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/enhancedLoop/pom.xml" />
+        <option value="$PROJECT_DIR$/Autoboxing/pom.xml" />
+        <option value="$PROJECT_DIR$/StaticImports/pom.xml" />
+        <option value="$PROJECT_DIR$/VarArgs/pom.xml" />
+        <option value="$PROJECT_DIR$/Enumuration/pom.xml" />
+        <option value="$PROJECT_DIR$/FormattedString/pom.xml" />
+        <option value="$PROJECT_DIR$/Assertion/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

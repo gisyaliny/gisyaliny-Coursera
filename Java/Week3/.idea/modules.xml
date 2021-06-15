@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assertion/Assertion.iml" filepath="$PROJECT_DIR$/Assertion/Assertion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Autoboxing/Autoboxing.iml" filepath="$PROJECT_DIR$/Autoboxing/Autoboxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enumuration/Enumuration.iml" filepath="$PROJECT_DIR$/Enumuration/Enumuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FormattedString/FormattedString.iml" filepath="$PROJECT_DIR$/FormattedString/FormattedString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StaticImports/StaticImports.iml" filepath="$PROJECT_DIR$/StaticImports/StaticImports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VarArgs/VarArgs.iml" filepath="$PROJECT_DIR$/VarArgs/VarArgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Week3.iml" filepath="$PROJECT_DIR$/.idea/Week3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enhancedLoop/enhancedLoop.iml" filepath="$PROJECT_DIR$/enhancedLoop/enhancedLoop.iml" />
+    </modules>
+  </component>
+</project>

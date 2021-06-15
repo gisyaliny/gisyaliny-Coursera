@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Autoboxing" />
+        <module name="enhancedLoop" />
+        <module name="StaticImports" />
+        <module name="VarArgs" />
+        <module name="Assertion" />
+        <module name="FormattedString" />
+        <module name="Enumuration" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="Assertion" target="11" />
+      <module name="Autoboxing" target="11" />
+      <module name="enhancedLoop" target="16" />
+      <module name="Enumuration" target="11" />
+      <module name="FormattedString" target="11" />
+      <module name="StaticImports" target="11" />
+      <module name="VarArgs" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
