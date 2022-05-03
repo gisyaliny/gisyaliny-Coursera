@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX-test</title>
+    <script>
+        function loadJSON(){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if (this.readyState == 4 & this.status == 200){
+                    display(this)
+                }
+            };
+        xhttp.open("GET","https://gorest.co.in/public-api/users",true);
+        xhttp.send();
+        }
+
+        function display(xhttp){
+            jsonData = JSON.parse(xhttp.responseText);
+            // console.log(jsonData.data)
+            var newContent = "";
+            for(index in jsonData.data){
+                newContent += "<li>" + jsonData.data[index].name + "</li>"
+            }
+            document.getElementById("list").innerHTML = newContent;
+        }
+
+        function clearJSON(){
+            document.getElementById("list").innerHTML = "";
+        }
+    </script>
+</head>
+<body>
+    <h2>AJAX DEMO</h2>
+    <button type="button" onclick="loadJSON()">Get JSON</button>
+    <button type="button" onclick="clearJSON()">Clear JSON</button>
+    <div id="list"></div>
+</body>
+</html>
