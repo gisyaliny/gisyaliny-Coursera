@@ -1,6 +1,6 @@
 # gisyaliny-Coursera 
 
-* [Offer帮留学生求职教科书-(2020修订版).pdf](./Offer帮留学生求职教科书-(2020修订版).pdf)
+* [Offer帮留学生求职教科书-(2020修订版).pdf](Offer帮留学生求职教科书-(2020修订版).pdf)
 
 ## [Advanced-Data-Visualization-with-R](./Advanced-Data-Visualization-with-R/Advanced-Data-Visualization-with-R.md)
 
@@ -20,7 +20,7 @@
 
 ## [Deep_Learning_Specialization](./Deep_Learning_Specialization/Deep_Learning_Specialization.md)
 
-## [Django](./Django/Django.md)
+## [Django-for-Everybody](./Django-for-Everybody/Django-for-Everybody.md)
 
 ## [Excel](./Excel/Excel.md)
 
@@ -51,6 +51,4 @@
 ## [Publons-Peer-review](./Publons-Peer-review/Publons-Peer-review.md)
 
 ## [Using-Databases-with-Python](./Using-Databases-with-Python/Using-Databases-with-Python.md)
-
-## [WebServer](./WebServer/WebServer.md)
 
